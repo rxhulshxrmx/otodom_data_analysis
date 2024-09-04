@@ -5,12 +5,12 @@ from googletrans import Translator
 
 # Set up Snowflake connection
 engine = create_engine(URL(
-    account='plaeryr-eq65600',
+    account='xxxxxxxxxxx',
     user='rxhulshxrmx',
-    password='gajroj-gyrza6-Xumfes',
-    database='otodom',
+    password='xxxxxxxxxxxxxxxxx',
+    database='xxxxxx',
     schema='public',
-    warehouse='compute_wh'
+    warehouse='xxxxxx_wh'
 ))
 
 # Fetch data from Snowflake
